@@ -1,0 +1,142 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(180deg, white,  grey, black);
+}
+
+header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 18px;
+
+    background-color: white;
+    border-bottom: 1px solid black;
+    z-index: 1000;
+}
+header a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    background-color: gray;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+section {
+    display: flex;
+    gap: 20px;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+section div {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+section img {
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+section h1 {
+    font-size: 50px;
+}
+
+section h2 {
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+main h2 {
+    background-color: aliceblue;
+    border-radius: 15px;
+    font-size: 40px;
+}
+
+main p {
+    color: azure;
+    font-size: 25px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+div h2 {
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+div a {
+    background: linear-gradient(90deg, #FAFAFA,#616161 );
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2 {
+        background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+footer h3 {
+        background: linear-gradient(90deg, #FAFAFA,#616161 );
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+footer a {
+        background: linear-gradient(90deg, #FAFAFA,#616161 );
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
